@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from myapp.models import Image,UserInterface
-    
+
 class ImageSerializer(serializers.ModelSerializer):
     class Meta:
         model=Image
